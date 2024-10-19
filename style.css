@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url('https://lh3.googleusercontent.com/gg/ACM6BIv58WYthbU76oDgW39lr2FupXKcTMJ0zwFZo_DNhauE0se3y2GbUeSs-o4hIbmts7QvvPtlUqyEaU6SSairT2gbBktCwjWEE4dW5WODb58Sq6YRO1SPiIctYwPhmsx78ANi5w8zeIHTDAr88UAEavBW42LO7EExEJIV5D6asvkGidGzeX-d');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.banner .cta {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.produk-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.produk-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.produk-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produk-item {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.produk-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.produk-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tentang-section,
+.kontak-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffcc00;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
